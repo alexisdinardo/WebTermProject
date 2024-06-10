@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Midterm Project</title>
+</head>
+<body>
+    <header>
+        <h2>Shoe Shop App</h2>
+        <br>
+    </header>
+    <main>
+        <div class="shoe-selection">
+            <br>
+            <div>
+                <label for="shoe-type">Shoe Type:</label>
+                <br>
+                <select id="shoe-type">
+                    <option value="LouBoutin">LouBoutin</option>
+                    <option value="Prada">Prada</option>
+                    <option value="Chanel">Chanel</option>
+                </select>
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="shoe-color">Shoe Color:</label>
+                <br>
+                <select id="shoe-color">
+                    <option value="Black">Black</option>
+                    <option value="White">White</option>
+                    <option value="Pink">Pink</option>
+                </select>
+            </div>
+            <br>
+            <br>
+            <div>
+                <label>Shoe Size:</label>
+                <br>
+                <label><input type="radio" name="shoe-size" value="5" checked>5</label>
+                <label><input type="radio" name="shoe-size" value="6"> 6</label>
+                <label><input type="radio" name="shoe-size" value="7"> 7</label>
+                <label><input type="radio" name="shoe-size" value="8"> 8</label>
+                <label><input type="radio" name="shoe-size" value="9"> 9</label>
+            </div>
+        </div>
+        <div class="shoe-details">
+            <div class="shoe-image">
+                <img id="shoe-image" src="images/louboutin_black.jpeg" alt="Shoe Image">
+            </div>
+            <div class="order-description">
+                <p>Description</p>
+                <textarea id="textbox" rows="10" cols="50">LouBoutin
+
+LouBoutin is a luxury shoe brand known for its red bottomed heels. The brand was created in 1992 by Christian Louboutin.
+                    
+Color: Black
+Size: undefined
+Price: select a size to see a price</textarea>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
